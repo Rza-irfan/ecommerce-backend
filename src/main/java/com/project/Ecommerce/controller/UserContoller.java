@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin()
 @RequestMapping("/user")
 public class UserContoller {
-    @GetMapping("/sss")
+    @GetMapping("/signup")
     public ResponseEntity<String> getUser (){
         System.out.println("Hello");
         return new ResponseEntity<>("fjnjg", HttpStatus.OK);
